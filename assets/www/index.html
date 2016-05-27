@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!--
+   Copyright (c) 2012-2014 Adobe Systems Incorporated. All rights reserved.
+   
+   Licensed to the Apache Software Foundation (ASF) under one
+   or more contributor license agreements.  See the NOTICE file
+   distributed with this work for additional information
+   regarding copyright ownership.  The ASF licenses this file
+   to you under the Apache License, Version 2.0 (the
+   "License"); you may not use this file except in compliance
+   with the License.  You may obtain a copy of the License at
+   
+   http://www.apache.org/licenses/LICENSE-2.0
+   
+   Unless required by applicable law or agreed to in writing,
+   software distributed under the License is distributed on an
+   "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+    KIND, either express or implied.  See the License for the
+   specific language governing permissions and limitations
+   under the License.
+   -->
+<html>
+   <head>
+      <meta charset="utf-8" />
+      <meta name="format-detection" content="telephone=no" />
+      <meta name="msapplication-tap-highlight" content="no" />
+      <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+      <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
+      <link rel="stylesheet" href="css/jquery.mobile.css" />
+      <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css"/>
+      <link rel="stylesheet" type="text/css"	href="css/slick.css" />
+      <link rel="stylesheet" type="text/css"	href="css/slick-theme.css" />
+      <link rel="stylesheet" href="themes/my-theme.css" />
+      <link rel="stylesheet" type="text/css" href="css/index.css" />
+      <title>Spoof Me Up</title>
+   </head>
+   <body>
+      <div id="spoofHomePage" data-role="page" data-theme="c">
+         <div data-role="header" data-position="fixed">
+            <h2>Spoof-Me-Up</h2>
+            <a href="#" id="ui-app-delete" class="ui-btn ui-btn-right ui-icon-delete ui-btn-icon-notext ui-corner-all  ">No text</a>			
+         </div>
+         <!-- /header -->
+         <div role="main" class="ui-content">
+            <div class="my-carousel">
+               <div class="my-carousel-div">
+                  <h3>
+                     <img class="carousel-img" src="img/tvf.jpg" />
+                  </h3>
+               </div>
+               <div class="my-carousel-div">
+                  <h3>
+                     <img class="carousel-img" src="img/sde.jpg" />
+                  </h3>
+               </div>
+			   <div class="my-carousel-div">
+                  <h3>
+                     <img class="carousel-img" src="img/aib-banner.jpg" />
+                  </h3>
+               </div>
+               <div class="my-carousel-div">
+                  <h3>
+                     <img class="carousel-img" src="img/totalbc.jpg" />
+                  </h3>
+               </div>
+            </div>
+            <!-- TVF List	-->
+            <ul data-role="listview" data-theme="c">
+               <li><a id="toMenuPage" data-isMenu = "tvfMenu"><img src="img/tvficon.jpg"  class="ui-li-icon ui-corner-none">Total Viral Fever</a></li>
+               <div class="my-tvf-div" >
+               </div>
+            </ul>
+            <!-- End TVF List	-->
+            <!--  SDE List	-->
+            <ul data-role="listview" data-theme="c">
+               <li><a  id="toMenuPage" data-isMenu = "sdeMenu"><img src="img/sdeicon.jpg"  class="ui-li-icon ui-corner-none">Shudh Desi Endings</a></li>
+               <div class="my-sde-div">
+               </div>
+            </ul>
+            <!-- End SDE List	-->
+			<!--  AIB List	-->
+            <ul data-role="listview" data-theme="c">
+               <li><a  id="toMenuPage" data-isMenu = "aibMenu"><img src="img/aib-icon.jpg"  class="ui-li-icon ui-corner-none">All India Bakchod</a></li>
+               <div class="my-aib-div">
+               </div>
+            </ul>
+            <!-- End AIB List	-->
+            <!--  TotalBC List	-->
+            <ul data-role="listview" data-theme="c">
+               <li><a  id="toMenuPage" data-isMenu = "totalBcMenu"><img src="img/mkdicon.jpg"  class="ui-li-icon ui-corner-none">Mania Ki Duniya</a></li>
+               <div class="my-totalbc-div" >
+               </div>
+            </ul>
+            <!-- End TotalBC List	-->
+         </div>
+         <!-- /content -->
+         <div data-role="footer" data-position="fixed">
+           
+         </div>
+         <!-- /footer -->
+      </div>
+      <!-- /page --> 
+      <script src="js/jquery.js"></script>
+      <script src="js/jquery.mobile.js"></script>
+      <script type="text/javascript" src="js/slick.min.js"></script> 
+	   <script type="text/javascript" src="js/jquery.tube.js"></script> 	
+      <script type="text/javascript" src="cordova.js"></script>
+      <script type="text/javascript" src="js/index.js"></script>
+      <script type="text/javascript">
+         app.initialize();
+    
+      </script>
+   </body>
+</html>
